@@ -16,14 +16,14 @@ The library is published to Maven repositories. Each release is pushed to a stag
 
 Gradle:
 ```gradle
-  compile 'org.mp4parser:isoparser:1.9.27'
+  compile 'com.carriersedge:isoparser:1.9.57'
 ```
 Maven:
 ```xml
   <dependency>
-    <groupId>org.mp4parser</groupId>
+    <groupId>com.carriersedge</groupId>
     <artifactId>isoparser</artifactId>
-    <version>1.9.27</version>
+    <version>1.9.57</version>
   </dependency>
 ```
 
