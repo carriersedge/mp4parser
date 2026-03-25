@@ -16,14 +16,14 @@ The library is published to Maven repositories. Each release is pushed to a stag
 
 Gradle:
 ```gradle
-  compile 'com.carriersedge:isoparser:1.9.58'
+  compile 'com.carriersedge:isoparser:1.9.57'
 ```
 Maven:
 ```xml
   <dependency>
     <groupId>com.carriersedge</groupId>
     <artifactId>isoparser</artifactId>
-    <version>1.9.58</version>
+    <version>1.9.57</version>
   </dependency>
 ```
 
