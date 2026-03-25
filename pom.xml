@@ -8,8 +8,8 @@
     <description>MP4 Parser Project (parent) </description>
     <developers>
         <developer>
-            <name>Sebastian Annies</name>
-            <email>Sebastian.Annies@gmail.com</email>
+            <name>John Clark</name>
+            <email>john@carriersedge.com</email>
         </developer>
     </developers>
     <url>https://github.com/carriersedge/mp4parser</url>
@@ -40,13 +40,22 @@
                 <module>androidtest</module>
             </modules>
         </profile>
-
-
         <profile>
             <id>release</id>
             <build>
                 <pluginManagement>
                     <plugins>
+                        <plugin>
+                            <groupId>org.sonatype.central</groupId>
+                            <artifactId>central-publishing-maven-plugin</artifactId>
+                            <version>0.4.0</version>
+                            <extensions>true</extensions>
+                            <configuration>
+                                <publishingServerId>central</publishingServerId>
+                                <tokenAuth>true</tokenAuth>
+                                <autoPublish>true</autoPublish>
+                            </configuration>
+                        </plugin>
                         <plugin>
                             <groupId>org.apache.maven.plugins</groupId>
                             <artifactId>maven-source-plugin</artifactId>
@@ -63,7 +72,6 @@
                         <plugin>
                             <groupId>org.apache.maven.plugins</groupId>
                             <artifactId>maven-javadoc-plugin</artifactId>
-
                             <executions>
                                 <execution>
                                     <id>attach-javadocs</id>
@@ -87,12 +95,11 @@
                                     </goals>
                                 </execution>
                             </executions>
-                        </plugin>
+                        </plugin>                        
                     </plugins>
                 </pluginManagement>
             </build>
         </profile>
-
     </profiles>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
