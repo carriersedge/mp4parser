@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.mp4parser</groupId>
+    <groupId>com.carriersedge</groupId>
     <version>1.9.57-SNAPSHOT</version>
     <artifactId>muxer</artifactId>
     <name>File Muxer</name>
@@ -11,7 +11,7 @@
     </description>
     <parent>
         <artifactId>mp4parser-project-ce</artifactId>
-        <groupId>org.mp4parser</groupId>
+        <groupId>com.carriersedge</groupId>
         <version>1.9.57-SNAPSHOT</version>
     </parent>
     <properties>
@@ -19,7 +19,7 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.mp4parser</groupId>
+            <groupId>com.carriersedge</groupId>
             <artifactId>isoparser</artifactId>
             <version>1.9.57-SNAPSHOT</version>
         </dependency>
