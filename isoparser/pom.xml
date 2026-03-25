@@ -9,7 +9,7 @@
     <url>https://github.com/sannies/mp4parser</url>
     <version>1.9.57-SNAPSHOT</version>
     <parent>
-        <artifactId>mp4parser-project</artifactId>
+        <artifactId>mp4parser-project-ce</artifactId>
         <groupId>org.mp4parser</groupId>
         <version>1.9.57-SNAPSHOT</version>
     </parent>
