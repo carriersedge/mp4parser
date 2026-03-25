@@ -3,7 +3,7 @@
     <groupId>com.carriersedge</groupId>
     <artifactId>mp4parser-project-ce</artifactId>
     <packaging>pom</packaging>
-    <version>1.9.58-SNAPSHOT</version>
+    <version>1.9.57-SNAPSHOT</version>
     <name>MP4 Parser Project</name>
     <description>MP4 Parser Project (parent) </description>
     <developers>
@@ -209,6 +209,6 @@
     <scm>
         <url>https://github.com/carriersedge/mp4parser</url>
         <connection>scm:git:git@github.com:carriersedge/mp4parser.git</connection>
-        <tag>mp4parser-project-ce-1.9.58</tag>
+        <tag>mp4parser-project-ce-1.9.57</tag>
     </scm>
 </project>
