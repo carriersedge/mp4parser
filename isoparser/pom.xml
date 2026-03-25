@@ -1,16 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.mp4parser</groupId>
+    <groupId>com.carriersedge</groupId>
     <artifactId>isoparser</artifactId>
     <packaging>jar</packaging>
     <name>ISO Parser</name>
     <description>A generic parser and writer for all ISO 14496 based files (MP4, Quicktime, DCF, PDCF, ...)
     </description>
-    <url>https://github.com/sannies/mp4parser</url>
+    <url>https://github.com/carriersedge/mp4parser</url>
     <version>1.9.57-SNAPSHOT</version>
     <parent>
         <artifactId>mp4parser-project-ce</artifactId>
-        <groupId>org.mp4parser</groupId>
+        <groupId>com.carriersedge</groupId>
         <version>1.9.57-SNAPSHOT</version>
     </parent>
     <properties>
