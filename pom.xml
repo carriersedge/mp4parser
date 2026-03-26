@@ -19,6 +19,12 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
+    <distributionManagement>
+        <repository>
+            <id>maven-central-repository</id>
+            <url>https://repo1.maven.org/maven2/</url>
+        </repository>
+    </distributionManagement>
     <modules>
         <module>isoparser</module>
         <module>muxer</module>
